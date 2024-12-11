@@ -7,7 +7,22 @@
 <p>Текущая дата: @CurrentDate</p>
 <p>Текущее время: @CurrentTime</p>
 
+@foreach (var user in result)
+{
+    <p>@user.UserId @user.Username @user.Email</p>
+}
+
 @code {
+    public class User
+    {
+        public int UserId { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public int? RoleId { get; set; }
+    }
+    public User[] result = new User[] { };
+
     string CurrentDate;
     string CurrentTime;
 
@@ -16,5 +31,11 @@
         var date = DateTime.Now;
         CurrentDate = date.ToShortDateString();
         CurrentTime = date.ToShortTimeString();
+
+        var client = new HttpClient();
+        client.BaseAddress = new Uri("https://yanko-web-api-with-db.onrender.com/");
+
+        result = await client.GetFromJsonAsync<User[]>("api/UsersController1");
+        return;
     }
 }
