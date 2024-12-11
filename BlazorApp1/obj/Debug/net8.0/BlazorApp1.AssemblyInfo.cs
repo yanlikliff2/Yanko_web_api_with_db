@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Yanko_web3_v2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BlazorApp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6990a1ae11090da2fb930fe3fce9f0dca22306b2")]
-[assembly: System.Reflection.AssemblyProductAttribute("Yanko_web3_v2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Yanko_web3_v2")]
+[assembly: System.Reflection.AssemblyProductAttribute("BlazorApp1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BlazorApp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
