@@ -37,7 +37,11 @@ namespace Yanko_web3_v2
                 app.UseSwaggerUI();
             }
 
-            //app.UseCors(builder => builder.WithOrigins(new[] {"",}));
+            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7098", "https://yanko-web-api-with-db.onrender.com" })
+            .AllowAnyHeader()
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            );
 
             app.UseHttpsRedirection();
 

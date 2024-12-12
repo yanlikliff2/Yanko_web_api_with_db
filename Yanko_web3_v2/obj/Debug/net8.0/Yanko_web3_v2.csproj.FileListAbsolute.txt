@@ -170,3 +170,4 @@ C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\obj\Debug\net8.0\
 C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\obj\Debug\net8.0\Yanko_web3_v2.pdb
 C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\obj\Debug\net8.0\Yanko_web3_v2.genruntimeconfig.cache
 C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\obj\Debug\net8.0\ref\Yanko_web3_v2.dll
+C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\obj\Debug\net8.0\Yanko_web3_v2.sourcelink.json
