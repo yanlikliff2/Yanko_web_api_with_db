@@ -1020,9 +1020,6 @@ C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\c
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\lyjzlfm448-tptq2av103.gz
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\11nin865jw-lfu7j35m59.gz
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\chedxca587-oyz0vx2fzb.gz
-C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-pisv4p13o4.gz
-C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-0wo3tacfwt.gz
-C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-m9tyl9w6na.gz
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1038,3 +1035,6 @@ C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\B
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\refint\BlazorClient.dll
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\BlazorClient.pdb
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\ref\BlazorClient.dll
+C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-ckl4r03pz8.gz
+C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-dtj4zl47ir.gz
+C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-15p3gtxisf.gz
