@@ -8,7 +8,7 @@ FROM nginx:alpine
 WORKDIR /var/www/web
 COPY --from=build-env /app/output/wwwroot .
 
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /nginx.conf
 
 EXPOSE 80
 
