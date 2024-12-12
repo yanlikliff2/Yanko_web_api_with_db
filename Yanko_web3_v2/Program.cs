@@ -37,6 +37,8 @@ namespace Yanko_web3_v2
                 app.UseSwaggerUI();
             }
 
+            //app.UseCors(builder => builder.WithOrigins(new[] {"",}));
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

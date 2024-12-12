@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QidU8Mict2lGfOwee0CtUCPezFlG+3ix4MgMq29aklw=",
+  "Hash": "8PNew4io3hvAYRmnGYi2SdgX/7lkJ06WEm9QOU6AQoo=",
   "Source": "BlazorClient",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "15p3gtxisf",
-      "Integrity": "Bda6c3yr+pBDT+72flT78ObHcmecZ6gtc40hi2DZUGw=",
+      "Fingerprint": "ewf3hie0q4",
+      "Integrity": "PoxShlZawvUWM30YWz4txZnA4icqSqfPLurxSFhAW+M=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "dtj4zl47ir",
-      "Integrity": "r0uO6C5yANeZqTITIo0DDAqQfKI9dBDV4KqPsa0tn6c=",
+      "Fingerprint": "lgkw7p7ota",
+      "Integrity": "a/X2oiFYpEvPU8gDNO3rIFVAHUFTLxmQHALiHHLJoQE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\BlazorClient.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ckl4r03pz8",
-      "Integrity": "LLFrUOy93CRmOWLfH5U9lZk7faxIGJGvuLAc2zRnlTE=",
+      "Fingerprint": "s6w0xgz0j5",
+      "Integrity": "9NPOpQeIJC5mAosa2KTDV+hL0ghnKBjCCYqpBPMADVE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\webcil\\BlazorClient.wasm"
@@ -5960,7 +5960,7 @@
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
-      "Identity": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\bllwa4ry6o-15p3gtxisf.gz",
+      "Identity": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\bllwa4ry6o-ewf3hie0q4.gz",
       "SourceId": "BlazorClient",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\",
@@ -5974,8 +5974,8 @@
       "RelatedAsset": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7pmms78dr5",
-      "Integrity": "lQsH+k0FZwTSXfSMQsibkcnPu3Pm+CrvlyrmHh6cGb8=",
+      "Fingerprint": "pkwqexzq7e",
+      "Integrity": "ackJRC8c4Tpk2K94xW2CNBSNdrGMJJ7lLvChGfGX7as=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7346,7 +7346,7 @@
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encodings.Web.wasm"
     },
     {
-      "Identity": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\p76m9ok4sd-dtj4zl47ir.gz",
+      "Identity": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\p76m9ok4sd-lgkw7p7ota.gz",
       "SourceId": "BlazorClient",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\",
@@ -7360,8 +7360,8 @@
       "RelatedAsset": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorClient.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ourkku69k7",
-      "Integrity": "AMoWIWKSI8uxU3GDpPoRJtOnjWhsxKeC4GSJP0cKV/E=",
+      "Fingerprint": "gwgts5fi4m",
+      "Integrity": "0DpG+SSebzou4RrCRMtZyv7vG+Xv/Z/nIETy4MB1E4I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorClient.pdb"
@@ -8333,7 +8333,7 @@
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.wasm"
     },
     {
-      "Identity": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\xr8uyhrrs6-ckl4r03pz8.gz",
+      "Identity": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\xr8uyhrrs6-s6w0xgz0j5.gz",
       "SourceId": "BlazorClient",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\",
@@ -8347,8 +8347,8 @@
       "RelatedAsset": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorClient.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0dnszdxp2z",
-      "Integrity": "vPPMZVBq1nefXwXcDIUG2q5B7qMScCSJvKqDPOu3lKQ=",
+      "Fingerprint": "8jggdllxz3",
+      "Integrity": "TBcGUs/fHBrVs77QjRGZ4bnsIq578z56T8KnIgrZzaY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorClient.wasm"
@@ -8788,8 +8788,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yjm3prnc9t",
-      "Integrity": "EvY6S20FyXjR6Ch0bksQbFgkcnWyuUWfVBEOLggwfhg=",
+      "Fingerprint": "akcd58r7l2",
+      "Integrity": "JsrZyHj6OIWV8McO3O9G1Maf3AuPmR2GgnbAd62Ek7M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -8836,7 +8836,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bda6c3yr+pBDT+72flT78ObHcmecZ6gtc40hi2DZUGw=\""
+          "Value": "\"PoxShlZawvUWM30YWz4txZnA4icqSqfPLurxSFhAW+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 12:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PoxShlZawvUWM30YWz4txZnA4icqSqfPLurxSFhAW+M="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\bllwa4ry6o-ewf3hie0q4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000112854080"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8860"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ackJRC8c4Tpk2K94xW2CNBSNdrGMJJ7lLvChGfGX7as=\""
         },
         {
           "Name": "Last-Modified",
@@ -8845,45 +8884,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Bda6c3yr+pBDT+72flT78ObHcmecZ6gtc40hi2DZUGw="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\bllwa4ry6o-15p3gtxisf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000112892301"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8857"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lQsH+k0FZwTSXfSMQsibkcnPu3Pm+CrvlyrmHh6cGb8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:42:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -8899,19 +8899,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Bda6c3yr+pBDT+72flT78ObHcmecZ6gtc40hi2DZUGw=\""
+          "Value": "W/\"PoxShlZawvUWM30YWz4txZnA4icqSqfPLurxSFhAW+M=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Bda6c3yr+pBDT+72flT78ObHcmecZ6gtc40hi2DZUGw="
+          "Value": "sha256-PoxShlZawvUWM30YWz4txZnA4icqSqfPLurxSFhAW+M="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\bllwa4ry6o-15p3gtxisf.gz",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\bllwa4ry6o-ewf3hie0q4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8920,7 +8920,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8857"
+          "Value": "8860"
         },
         {
           "Name": "Content-Type",
@@ -8928,11 +8928,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lQsH+k0FZwTSXfSMQsibkcnPu3Pm+CrvlyrmHh6cGb8=\""
+          "Value": "\"ackJRC8c4Tpk2K94xW2CNBSNdrGMJJ7lLvChGfGX7as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:42:44 GMT"
+          "Value": "Thu, 12 Dec 2024 10:06:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8950,7 +8950,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lQsH+k0FZwTSXfSMQsibkcnPu3Pm+CrvlyrmHh6cGb8="
+          "Value": "sha256-ackJRC8c4Tpk2K94xW2CNBSNdrGMJJ7lLvChGfGX7as="
         }
       ]
     },
@@ -9110,7 +9110,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r0uO6C5yANeZqTITIo0DDAqQfKI9dBDV4KqPsa0tn6c=\""
+          "Value": "\"a/X2oiFYpEvPU8gDNO3rIFVAHUFTLxmQHALiHHLJoQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 12:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a/X2oiFYpEvPU8gDNO3rIFVAHUFTLxmQHALiHHLJoQE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorClient.pdb",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\p76m9ok4sd-lgkw7p7ota.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000055163283"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18127"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0DpG+SSebzou4RrCRMtZyv7vG+Xv/Z/nIETy4MB1E4I=\""
         },
         {
           "Name": "Last-Modified",
@@ -9119,45 +9158,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-r0uO6C5yANeZqTITIo0DDAqQfKI9dBDV4KqPsa0tn6c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorClient.pdb",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\p76m9ok4sd-dtj4zl47ir.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000055160240"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18128"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AMoWIWKSI8uxU3GDpPoRJtOnjWhsxKeC4GSJP0cKV/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:42:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9173,19 +9173,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"r0uO6C5yANeZqTITIo0DDAqQfKI9dBDV4KqPsa0tn6c=\""
+          "Value": "W/\"a/X2oiFYpEvPU8gDNO3rIFVAHUFTLxmQHALiHHLJoQE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r0uO6C5yANeZqTITIo0DDAqQfKI9dBDV4KqPsa0tn6c="
+          "Value": "sha256-a/X2oiFYpEvPU8gDNO3rIFVAHUFTLxmQHALiHHLJoQE="
         }
       ]
     },
     {
       "Route": "_framework/BlazorClient.pdb.gz",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\p76m9ok4sd-dtj4zl47ir.gz",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\p76m9ok4sd-lgkw7p7ota.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9194,7 +9194,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18128"
+          "Value": "18127"
         },
         {
           "Name": "Content-Type",
@@ -9202,11 +9202,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AMoWIWKSI8uxU3GDpPoRJtOnjWhsxKeC4GSJP0cKV/E=\""
+          "Value": "\"0DpG+SSebzou4RrCRMtZyv7vG+Xv/Z/nIETy4MB1E4I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:42:43 GMT"
+          "Value": "Thu, 12 Dec 2024 10:06:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9224,7 +9224,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AMoWIWKSI8uxU3GDpPoRJtOnjWhsxKeC4GSJP0cKV/E="
+          "Value": "sha256-0DpG+SSebzou4RrCRMtZyv7vG+Xv/Z/nIETy4MB1E4I="
         }
       ]
     },
@@ -9247,7 +9247,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LLFrUOy93CRmOWLfH5U9lZk7faxIGJGvuLAc2zRnlTE=\""
+          "Value": "\"9NPOpQeIJC5mAosa2KTDV+hL0ghnKBjCCYqpBPMADVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 12:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9NPOpQeIJC5mAosa2KTDV+hL0ghnKBjCCYqpBPMADVE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorClient.wasm",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\xr8uyhrrs6-s6w0xgz0j5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000104036621"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9611"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TBcGUs/fHBrVs77QjRGZ4bnsIq578z56T8KnIgrZzaY=\""
         },
         {
           "Name": "Last-Modified",
@@ -9256,45 +9295,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LLFrUOy93CRmOWLfH5U9lZk7faxIGJGvuLAc2zRnlTE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorClient.wasm",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\xr8uyhrrs6-ckl4r03pz8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000104047446"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9610"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vPPMZVBq1nefXwXcDIUG2q5B7qMScCSJvKqDPOu3lKQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:42:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9310,19 +9310,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LLFrUOy93CRmOWLfH5U9lZk7faxIGJGvuLAc2zRnlTE=\""
+          "Value": "W/\"9NPOpQeIJC5mAosa2KTDV+hL0ghnKBjCCYqpBPMADVE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LLFrUOy93CRmOWLfH5U9lZk7faxIGJGvuLAc2zRnlTE="
+          "Value": "sha256-9NPOpQeIJC5mAosa2KTDV+hL0ghnKBjCCYqpBPMADVE="
         }
       ]
     },
     {
       "Route": "_framework/BlazorClient.wasm.gz",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\xr8uyhrrs6-ckl4r03pz8.gz",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\obj\\Debug\\net8.0\\compressed\\xr8uyhrrs6-s6w0xgz0j5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9331,7 +9331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9610"
+          "Value": "9611"
         },
         {
           "Name": "Content-Type",
@@ -9339,11 +9339,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vPPMZVBq1nefXwXcDIUG2q5B7qMScCSJvKqDPOu3lKQ=\""
+          "Value": "\"TBcGUs/fHBrVs77QjRGZ4bnsIq578z56T8KnIgrZzaY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:42:43 GMT"
+          "Value": "Thu, 12 Dec 2024 10:06:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9361,7 +9361,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vPPMZVBq1nefXwXcDIUG2q5B7qMScCSJvKqDPOu3lKQ="
+          "Value": "sha256-TBcGUs/fHBrVs77QjRGZ4bnsIq578z56T8KnIgrZzaY="
         }
       ]
     },
@@ -37477,6 +37477,51 @@
       ]
     },
     {
+      "Route": "index.akcd58r7l2.html",
+      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsrZyHj6OIWV8McO3O9G1Maf3AuPmR2GgnbAd62Ek7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 12:21:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "akcd58r7l2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsrZyHj6OIWV8McO3O9G1Maf3AuPmR2GgnbAd62Ek7M="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\wwwroot\\index.html",
       "Selectors": [],
@@ -37487,7 +37532,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "963"
+          "Value": "967"
         },
         {
           "Name": "Content-Type",
@@ -37495,11 +37540,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EvY6S20FyXjR6Ch0bksQbFgkcnWyuUWfVBEOLggwfhg=\""
+          "Value": "\"JsrZyHj6OIWV8McO3O9G1Maf3AuPmR2GgnbAd62Ek7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:31:32 GMT"
+          "Value": "Thu, 12 Dec 2024 12:21:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -37509,52 +37554,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EvY6S20FyXjR6Ch0bksQbFgkcnWyuUWfVBEOLggwfhg="
-        }
-      ]
-    },
-    {
-      "Route": "index.yjm3prnc9t.html",
-      "AssetFile": "C:\\Users\\Стефан\\source\\repos\\Yanko_web3_v2\\BlazorClient\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "963"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EvY6S20FyXjR6Ch0bksQbFgkcnWyuUWfVBEOLggwfhg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 09:31:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yjm3prnc9t"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EvY6S20FyXjR6Ch0bksQbFgkcnWyuUWfVBEOLggwfhg="
+          "Value": "sha256-JsrZyHj6OIWV8McO3O9G1Maf3AuPmR2GgnbAd62Ek7M="
         }
       ]
     },
