@@ -120,7 +120,7 @@
               "RelativeDocumentMoniker": "BlazorClient\\wwwroot\\css\\app.css",
               "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\BlazorClient\\wwwroot\\css\\app.css",
               "RelativeToolTip": "BlazorClient\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAiwG0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-12T09:41:30.18Z",
               "EditorCaption": ""
@@ -135,8 +135,7 @@
               "RelativeToolTip": "BlazorClient\\Pages\\Users.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T09:40:39.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:40:39.547Z"
             },
             {
               "$type": "Document",
@@ -148,8 +147,7 @@
               "RelativeToolTip": "BlazorClient\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T09:32:29.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:32:29.843Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "BlazorClient\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T09:32:13.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:32:13.672Z"
             },
             {
               "$type": "Document",
@@ -174,8 +171,7 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-12T09:26:08.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:26:08.347Z"
             },
             {
               "$type": "Document",
@@ -187,8 +183,7 @@
               "RelativeToolTip": "Yanko_web3_v2\\Models\\UserTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:26:28.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T09:26:28.961Z"
             },
             {
               "$type": "Document",
@@ -200,8 +195,7 @@
               "RelativeToolTip": "Yanko_web3_v2\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-10T08:18:39.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T08:18:39.771Z"
             },
             {
               "$type": "Document",
@@ -237,8 +231,7 @@
               "RelativeToolTip": "Yanko_web3_v2\\Yanko_web3_v2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T07:20:35.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T07:20:35.498Z"
             },
             {
               "$type": "Document",
@@ -250,8 +243,7 @@
               "RelativeToolTip": "DataAccess\\DataAccess.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T07:20:28.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T07:20:28.963Z"
             },
             {
               "$type": "Document",
@@ -263,8 +255,7 @@
               "RelativeToolTip": "Yanko_web3_v2\\Controllers\\UsersController1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:48:52.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T10:48:52.545Z"
             },
             {
               "$type": "Document",
