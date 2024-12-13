@@ -5,6 +5,11 @@ namespace Yanko_web3_v2.Models;
 
 public partial class UserTable
 {
+    public UserTable()
+    {
+
+    }
+
     public int UserId { get; set; }
 
     public string Username { get; set; } = null!;

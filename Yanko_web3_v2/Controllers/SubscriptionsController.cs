@@ -45,12 +45,17 @@ namespace Yanko_web3_v2.Controllers
             return Ok(subscribers);
         }
         [HttpPost]
-        public IActionResult Add(int userId, int channelId, int level)
+        public IActionResult Add(int id, int userId, int channelId, int level)
         {
-            SubscriptionsTable subscribers = new SubscriptionsTable() { UserId = userId, ChannelId = channelId, SubscriptionsLevel = level};
-            Context.SubscriptionsTables.Add(subscribers);
-            Context.SaveChanges();
-            return Ok(subscribers);
+            SubscriptionsTable? subscribers = Context.SubscriptionsTables.Where(x => x.SubscriptionsId == id).FirstOrDefault();
+            if (subscribers == null)
+            {
+                subscribers = new SubscriptionsTable() { UserId = userId, ChannelId = channelId, SubscriptionsLevel = level };
+                Context.SubscriptionsTables.Add(subscribers);
+                Context.SaveChanges();
+                return Ok(subscribers);
+            }
+            return BadRequest("Элемент с таким id уже существует");
         }
         [HttpDelete]
         public IActionResult Delete(int id)
