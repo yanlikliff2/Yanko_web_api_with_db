@@ -11,8 +11,9 @@ namespace Yanko_web3_v2.Entities
         public DateTime Created { get; set; }
         public string CreatedById { get; set; }
         public DateTime? Revoked {  get; set; }
-        public string? RevoketById { get; set;}
+        public string? RevoketById { get; set; }
         public string? ReplasedById { get; set; }
+        public string? ReplasedByToken { get; set; }
         public string? ReasonRevoked {  get; set; }
         public bool IsExpired => DateTime.UtcNow >= Expires;
         public bool IsRevoked => Revoked != null;

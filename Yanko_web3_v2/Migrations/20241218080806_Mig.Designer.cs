@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Yanko_web3_v2.Models;
 
@@ -11,9 +12,11 @@ using Yanko_web3_v2.Models;
 namespace Yanko_web3_v2.Migrations
 {
     [DbContext(typeof(PractDbContext))]
-    partial class PractDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241218080806_Mig")]
+    partial class Mig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -250,6 +253,24 @@ namespace Yanko_web3_v2.Migrations
                     b.ToTable("Object_table", (string)null);
                 });
 
+            modelBuilder.Entity("Yanko_web3_v2.Models.Role", b =>
+                {
+                    b.Property<int>("RoleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("role_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"));
+
+                    b.Property<string>("Role1")
+                        .HasColumnType("text")
+                        .HasColumnName("role");
+
+                    b.HasKey("RoleId");
+
+                    b.ToTable("Role", (string)null);
+                });
+
             modelBuilder.Entity("Yanko_web3_v2.Models.SubscriptionsTable", b =>
                 {
                     b.Property<int>("ChannelId")
@@ -367,8 +388,9 @@ namespace Yanko_web3_v2.Migrations
                     b.Property<DateTime?>("ResetTokenExpires")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Role")
-                        .HasColumnType("int");
+                    b.Property<int?>("RoleId")
+                        .HasColumnType("int")
+                        .HasColumnName("role_id");
 
                     b.Property<DateTime>("Updated")
                         .HasColumnType("datetime2");
@@ -385,6 +407,8 @@ namespace Yanko_web3_v2.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("User_table", (string)null);
                 });
@@ -516,6 +540,17 @@ namespace Yanko_web3_v2.Migrations
                     b.Navigation("Sender");
                 });
 
+            modelBuilder.Entity("Yanko_web3_v2.Models.UserTable", b =>
+                {
+                    b.HasOne("Yanko_web3_v2.Models.Role", "Role")
+                        .WithMany("UserTables")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.SetNull)
+                        .HasConstraintName("FK_User_table_Role");
+
+                    b.Navigation("Role");
+                });
+
             modelBuilder.Entity("Yanko_web3_v2.Models.ChannelTable", b =>
                 {
                     b.Navigation("AdvertisementTables");
@@ -533,6 +568,11 @@ namespace Yanko_web3_v2.Migrations
                     b.Navigation("CommentTables");
 
                     b.Navigation("ImageTables");
+                });
+
+            modelBuilder.Entity("Yanko_web3_v2.Models.Role", b =>
+                {
+                    b.Navigation("UserTables");
                 });
 
             modelBuilder.Entity("Yanko_web3_v2.Models.TagTable", b =>

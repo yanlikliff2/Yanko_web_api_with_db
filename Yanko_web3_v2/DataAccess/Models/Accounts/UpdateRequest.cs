@@ -13,7 +13,6 @@ namespace Yanko_web3_v2.DataAccess.Models.Accounts
 
         public string FirstName { get; set; }
 
-        [EnumDataType(typeof(Role))]
         public string Role
         {
             get => _role;

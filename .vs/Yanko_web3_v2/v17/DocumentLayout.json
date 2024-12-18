@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\sevices\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\sevices\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\controllers\\accountscontrollercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\controllers\\accountscontrollercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\authorization\\ijwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\authorization\\ijwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\authorization\\jwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\authorization\\jwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\authorization\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\authorization\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +59,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Sevices\\AccountService.cs",
-              "RelativeDocumentMoniker": "Yanko_web3_v2\\Sevices\\AccountService.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Sevices\\AccountService.cs",
-              "RelativeToolTip": "Yanko_web3_v2\\Sevices\\AccountService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwE4AAAA3AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Program.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Program.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T13:08:28.819Z",
+              "WhenOpened": "2024-12-18T11:08:21.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Entities\\Role.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:37:15.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IJwtUtils.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\IJwtUtils.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\IJwtUtils.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\IJwtUtils.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Authorization\\IJwtUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:34:24.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountsControllerController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAhwEEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:25:12.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:11:54.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserTable.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Models\\UserTable.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Models\\UserTable.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Models\\UserTable.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Models\\UserTable.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA6wBUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:01:49.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:49:14.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtUtils.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\JwtUtils.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\JwtUtils.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\JwtUtils.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Authorization\\JwtUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:01:10.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwDIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:22:39.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\JwtMiddleware.cs",
+              "RelativeToolTip": "Yanko_web3_v2\\Authorization\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:08:55.62Z",
               "EditorCaption": ""
             }
           ]

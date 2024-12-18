@@ -53,9 +53,9 @@ namespace Yanko_web3_v2.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            Role? comment = Context.Roles.Where(x => x.RoleId == id).FirstOrDefault();
+            CommentTable? comment = Context.CommentTables.Where(x => x.CommentId == id).FirstOrDefault();
             if (comment == null) return BadRequest("Not found");
-            Context.Roles.Remove(comment);
+            Context.CommentTables.Remove(comment);
             Context.SaveChanges();
             return Ok(comment);
         }

@@ -6,11 +6,11 @@ namespace Yanko_web3_v2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController1 : ControllerBase
+    public class UserController : ControllerBase
     {
         public PractDbContext Context { get; }
 
-        public UsersController1(PractDbContext context)
+        public UserController(PractDbContext context)
         {
             Context = context;
         }
@@ -41,14 +41,14 @@ namespace Yanko_web3_v2.Controllers
             userTable.Username = userName; 
             userTable.Password = password; 
             userTable.Email = email; 
-            userTable.RoleId = roleId;
+            //userTable.RoleId = roleId;
             Context.SaveChanges();
             return Ok(userTable);
         }
         [HttpPost]
         public IActionResult Add(string userName, string email, string password, int roleId)
         {
-            UserTable userTable = new UserTable() { Username = userName, Password = password, Email = email, RoleId = roleId };
+            UserTable userTable = new UserTable() { Username = userName, Password = password, Email = email, /*RoleId = roleId*/ };
             Context.UserTables.Add(userTable);
             Context.SaveChanges();
             return Ok(userTable);

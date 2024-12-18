@@ -27,8 +27,6 @@ public partial class PractDbContext : DbContext
 
     public virtual DbSet<ObjectTable> ObjectTables { get; set; }
 
-    public virtual DbSet<Role> Roles { get; set; }
-
     public virtual DbSet<SubscriptionsTable> SubscriptionsTables { get; set; }
 
     public virtual DbSet<TagTable> TagTables { get; set; }
@@ -158,15 +156,6 @@ public partial class PractDbContext : DbContext
                 .HasConstraintName("FK_Object_table_Collection_table");
         });
 
-        modelBuilder.Entity<Role>(entity =>
-        {
-            entity.ToTable("Role");
-
-            entity.Property(e => e.RoleId).HasColumnName("role_id");
-            entity.Property(e => e.Role1)
-                .HasColumnType("text")
-                .HasColumnName("role");
-        });
 
         modelBuilder.Entity<SubscriptionsTable>(entity =>
         {
@@ -237,15 +226,15 @@ public partial class PractDbContext : DbContext
             entity.Property(e => e.Password)
                 .HasMaxLength(20)
                 .HasColumnName("password");
-            entity.Property(e => e.RoleId).HasColumnName("role_id");
+            //entity.Property(e => e.RoleId).HasColumnName("role_id");
             entity.Property(e => e.Username)
                 .HasColumnType("text")
                 .HasColumnName("username");
 
-            entity.HasOne(d => d.Role).WithMany(p => p.UserTables)
+            /*entity.HasOne(d => d.Role).WithMany(p => p.UserTables)
                 .HasForeignKey(d => d.RoleId)
                 .OnDelete(DeleteBehavior.SetNull)
-                .HasConstraintName("FK_User_table_Role");
+                .HasConstraintName("FK_User_table_Role");*/
         });
 
         OnModelCreatingPartial(modelBuilder);

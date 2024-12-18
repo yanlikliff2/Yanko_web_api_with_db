@@ -19,7 +19,9 @@ public partial class UserTable
     public string Username { get; set; } = null!;
     public string Email { get; set; } = null!;
     public string Password { get; set; } = null!;
-    public int? RoleId { get; set; }
+    //public int? RoleId { get; set; }
+
+    public Role Role { get; set; }
 
 
     public bool AcceptTerms { get; set; }
@@ -37,7 +39,7 @@ public partial class UserTable
 
     public virtual ICollection<CollectionTable> CollectionTables { get; set; } = new List<CollectionTable>();
 
-    public virtual Role? Role { get; set; }
+    //public virtual Role? Role { get; set; }
 
     public virtual ICollection<TransactionTable> TransactionTableRecipients { get; set; } = new List<TransactionTable>();
 
