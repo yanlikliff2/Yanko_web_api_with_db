@@ -61,7 +61,7 @@ namespace Yanko_web3_v2
 
             app.UseMiddleware<ErrorHandlerMidleware>();
 
-            app.UseMiddleware<IJwtUtils>();
+            app.UseMiddleware<JwtMiddleware>();
 
             app.MapControllers();
 
