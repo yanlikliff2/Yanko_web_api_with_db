@@ -1670,7 +1670,7 @@
       "AccountResponse": {
         "type": "object",
         "properties": {
-          "id": {
+          "userId": {
             "type": "integer",
             "format": "int32"
           },
@@ -1678,7 +1678,7 @@
             "type": "string",
             "nullable": true
           },
-          "firstName": {
+          "username": {
             "type": "string",
             "nullable": true
           },

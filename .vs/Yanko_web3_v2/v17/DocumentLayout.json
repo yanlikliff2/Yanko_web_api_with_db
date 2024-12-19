@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\dataaccess\\models\\accounts\\accountresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\dataaccess\\models\\accounts\\accountresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\services\\accountssservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\services\\accountssservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|solutionrelative:yanko_web3_v2\\models\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB8AD5DF-3437-480A-80AA-60E5A92694C6}|Yanko_web3_v2\\Yanko_web3_v2.csproj|c:\\users\\\u0441\u0442\u0435\u0444\u0430\u043D\\source\\repos\\yanko_web3_v2\\yanko_web3_v2\\authorization\\jwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AccountResponse.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\DataAccess\\Models\\Accounts\\AccountResponse.cs",
+              "RelativeDocumentMoniker": "Yanko_web3_v2\\DataAccess\\Models\\Accounts\\AccountResponse.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\DataAccess\\Models\\Accounts\\AccountResponse.cs*",
+              "RelativeToolTip": "Yanko_web3_v2\\DataAccess\\Models\\Accounts\\AccountResponse.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:35:33.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Helpers\\AppSettings.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Helpers\\AppSettings.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "JwtMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\JwtMiddleware.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\JwtMiddleware.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\IEmailService.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\IEmailService.cs",
@@ -129,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Controllers\\UserController.cs",
@@ -142,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PractDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Migrations\\PractDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Migrations\\PractDbContextModelSnapshot.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PractDbContext.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Models\\PractDbContext.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Models\\PractDbContext.cs",
@@ -168,20 +185,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AccountssService.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Services\\AccountssService.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Services\\AccountssService.cs",
               "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Services\\AccountssService.cs",
               "RelativeToolTip": "Yanko_web3_v2\\Services\\AccountssService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwDwAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwDwAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T12:16:13.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\IAccountService.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\IAccountService.cs",
@@ -194,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Yanko_web3_v2",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Yanko_web3_v2.csproj",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Yanko_web3_v2.csproj",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\appsettings.json",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\appsettings.json",
@@ -220,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Program.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Program.cs",
@@ -233,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Entities\\Role.cs",
@@ -246,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IJwtUtils.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\IJwtUtils.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\IJwtUtils.cs",
@@ -259,20 +276,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AccountsControllerController.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
               "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
               "RelativeToolTip": "Yanko_web3_v2\\Controllers\\AccountsControllerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwG4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T10:25:12.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Controllers\\BaseController.cs",
@@ -285,20 +302,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "UserTable.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Models\\UserTable.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Models\\UserTable.cs",
               "ToolTip": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Models\\UserTable.cs",
               "RelativeToolTip": "Yanko_web3_v2\\Models\\UserTable.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBUAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T10:01:49.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Entities\\RefreshToken.cs",
@@ -311,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "JwtUtils.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0442\u0435\u0444\u0430\u043D\\source\\repos\\Yanko_web3_v2\\Yanko_web3_v2\\Authorization\\JwtUtils.cs",
               "RelativeDocumentMoniker": "Yanko_web3_v2\\Authorization\\JwtUtils.cs",
