@@ -9,7 +9,7 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["DataAccess/DataAccess.csproj", "DataAccess/"] 
+COPY ["Yanko_web3_v2/DataAccess/DataAccess.csproj", "DataAccess/"] 
 COPY ["Yanko_web3_v2/Yanko_web3_v2.csproj", "Yanko_web3_v2/"]
 RUN dotnet restore "Yanko_web3_v2/Yanko_web3_v2.csproj"
 
