@@ -38,6 +38,7 @@ namespace Yanko_web3_v2.Controllers
             {
                 return BadRequest("Not found");
             }
+            
             userTable.Username = userName; 
             userTable.Password = password; 
             userTable.Email = email; 

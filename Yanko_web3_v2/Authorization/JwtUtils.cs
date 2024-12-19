@@ -47,7 +47,7 @@ namespace Yanko_web3_v2.Authorization
                 CreatedById = ipAddress
             };
             var tokenIsUnique = (await _practDbContext.UserTables.AnyAsync(a => a.RefreshTokens.Any(t => t.Token == refreshToken.Token)));
-            if (!tokenIsUnique)
+            if (tokenIsUnique)
                 return await GenerateRefreshToken(ipAddress);
             return refreshToken;
         }

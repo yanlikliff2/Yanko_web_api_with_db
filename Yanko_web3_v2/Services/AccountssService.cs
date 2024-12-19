@@ -15,15 +15,6 @@ namespace Yanko_web3_v2.Sevices
     public class AccountssService : IAccountService
     {
         private readonly PractDbContext _user;
-        /*private readonly PractDbContext _advertisement;
-        private readonly PractDbContext _channel;
-        private readonly PractDbContext _collection;
-        private readonly PractDbContext _comment;
-        private readonly PractDbContext _image;
-        private readonly PractDbContext _object;
-        private readonly PractDbContext _role;
-        private readonly PractDbContext _subscriptions;
-        private readonly PractDbContext _tag;*/
         private readonly IJwtUtils _jwtUtils;
         private readonly IMapper _mapper;
         private readonly AppSettings _appSettings;
@@ -34,16 +25,7 @@ namespace Yanko_web3_v2.Sevices
             IMapper mapper,
             IOptions<AppSettings> appSettings,
             IEmailService emailService,
-            PractDbContext user/*,
-            PractDbContext advertisement,
-            PractDbContext channel,
-            PractDbContext collection,
-            PractDbContext comment,
-            PractDbContext image,
-            PractDbContext obj,
-            PractDbContext role,
-            PractDbContext subscriptions,
-            PractDbContext tag*/
+            PractDbContext user
             ) 
         {
             _jwtUtils = jwtUtils;
@@ -62,7 +44,7 @@ namespace Yanko_web3_v2.Sevices
 
         public async Task<AuthenticateResponse> Authenticate(AuthenticateRequest model, string ipAddress)
         {
-            var account = await _user.UserTables.Include(x => x.ResetToken).AsNoTracking().FirstOrDefaultAsync(x => x.Email == model.Email);
+            var account = await _user.UserTables.Include(x => x.RefreshTokens).AsNoTracking().FirstOrDefaultAsync(x => x.Email == model.Email);
 
             if (account == null || !account.IsVerified || !BCrypt.Net.BCrypt.Verify(model.Password, account.Password))
                 throw new AppException("Email or password is incorrect");
@@ -217,8 +199,8 @@ namespace Yanko_web3_v2.Sevices
                 return;
             var account = _mapper.Map<UserTable>(model);
 
-            var isFirstAccount = !(await _user.UserTables.AnyAsync(x => x.Email == model.Email));
-            account.Username = model.Firstname;
+            var isFirstAccount = (await _user.UserTables.AnyAsync(x => x.Email == model.Email));
+            account.Username = model.Login;
             account.Role = isFirstAccount ? Role.Admin : Role.User;
             account.Created = DateTime.UtcNow;
             account.Verified = DateTime.UtcNow;
