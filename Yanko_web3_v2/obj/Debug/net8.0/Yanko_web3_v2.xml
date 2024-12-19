@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yanko_web3_v2</name>
+    </assembly>
+    <members>
+        <member name="T:Yanko_web3_v2.Migrations.MigratonName">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.MigratonName.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.MigratonName.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.MigratonName.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.bgjh">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.bgjh.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.bgjh.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.bgjh.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.Mig">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Mig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Mig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Mig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.Migre">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migre.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migre.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migre.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.Migreee">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migreee.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migreee.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migreee.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.Migrea">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migrea.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migrea.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.Migrea.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.da">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.da.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.da.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.da.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.d">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.d.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.d.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.d.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.ad">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.ad.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.ad.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.ad.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Yanko_web3_v2.Migrations.ado">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.ado.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.ado.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Yanko_web3_v2.Migrations.ado.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

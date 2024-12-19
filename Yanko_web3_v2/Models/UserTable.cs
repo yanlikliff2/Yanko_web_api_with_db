@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using Yanko_web3_v2.Entities;
 
 namespace Yanko_web3_v2.Models;
@@ -18,6 +19,7 @@ public partial class UserTable
     public int UserId { get; set; }
     public string Username { get; set; } = null!;
     public string Email { get; set; } = null!;
+    [StringLength(100)]
     public string Password { get; set; } = null!;
     //public int? RoleId { get; set; }
 

@@ -104,7 +104,7 @@ namespace Yanko_web3_v2.Controllers
             await _accountService.ResetPassword(model);
             return Ok(new { message = "Password reset successful, you can now login" });
         }
-        [AllowAnonymous]
+        [Authorize(Role.Admin)]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AccountResponse>>> GetAll()
         {

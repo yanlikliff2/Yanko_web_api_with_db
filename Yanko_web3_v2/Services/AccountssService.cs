@@ -207,16 +207,18 @@ namespace Yanko_web3_v2.Sevices
             var token = Convert.ToHexString(RandomNumberGenerator.GetBytes(64));
 
             var tokenIsUnique = (await _user.UserTables.AnyAsync(x => x.ResetToken == token));
-            if (!tokenIsUnique) { return await generateVertificationToken(); }
+            if (tokenIsUnique) { return await generateVertificationToken(); }
             return token;
         }
         public async Task Register(RegisterRequest model, string origin)
         {
-            if (await _user.UserTables.AnyAsync(x => x.Email == model.Email)) 
+            string email = model.Email;
+            if (await _user.UserTables.AnyAsync(x => x.Email == email)) 
                 return;
             var account = _mapper.Map<UserTable>(model);
 
             var isFirstAccount = !(await _user.UserTables.AnyAsync(x => x.Email == model.Email));
+            account.Username = model.Firstname;
             account.Role = isFirstAccount ? Role.Admin : Role.User;
             account.Created = DateTime.UtcNow;
             account.Verified = DateTime.UtcNow;

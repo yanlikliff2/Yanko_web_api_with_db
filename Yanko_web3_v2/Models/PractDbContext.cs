@@ -221,7 +221,7 @@ public partial class PractDbContext : DbContext
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.Email)
-                .HasColumnType("text")
+                .HasColumnType("nvarchar(50)")
                 .HasColumnName("email");
             entity.Property(e => e.Password)
                 .HasMaxLength(20)

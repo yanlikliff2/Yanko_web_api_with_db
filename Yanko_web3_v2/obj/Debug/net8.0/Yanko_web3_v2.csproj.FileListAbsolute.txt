@@ -179,3 +179,5 @@ C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\bin\Debug\net8.0\
 C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\bin\Debug\net8.0\MimeKit.dll
 C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\bin\Debug\net8.0\Yanko_web3_v2.xml
+C:\Users\Стефан\source\repos\Yanko_web3_v2\Yanko_web3_v2\obj\Debug\net8.0\Yanko_web3_v2.xml

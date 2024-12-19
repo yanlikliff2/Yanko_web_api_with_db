@@ -43,7 +43,7 @@ namespace Yanko_web3_v2.Migrations
                     user_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     username = table.Column<string>(type: "text", nullable: false),
-                    email = table.Column<string>(type: "text", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     password = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     role_id = table.Column<int>(type: "int", nullable: true)
                 },

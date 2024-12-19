@@ -1,8 +1,17 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Yanko_web3_v2",
-    "version": "1.0"
+    "title": "Backend API",
+    "description": "Backend API ASP .NET Core Web API",
+    "contact": {
+      "name": "Internet Shop",
+      "url": "https://example.com/contact"
+    },
+    "license": {
+      "name": "Internet Shop",
+      "url": "https://example.com/license"
+    },
+    "version": "v1"
   },
   "paths": {
     "/Accounts/authenticate": {
@@ -1939,6 +1948,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. \\r\\n\\r\\n \r\n                      Enter 'Bearer' [space] and then your token in the text input below.\r\n                      \\r\\n\\r\\nExample: 'Bearer 12345abcdef'",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

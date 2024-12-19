@@ -1034,7 +1034,7 @@ C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\B
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\refint\BlazorClient.dll
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\BlazorClient.pdb
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\ref\BlazorClient.dll
-C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-376tuau3dx.gz
-C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-ab9e5ahine.gz
-C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-l76odmxw9m.gz
 C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\xr8uyhrrs6-298zhkqopt.gz
+C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\p76m9ok4sd-q5tvc985z5.gz
+C:\Users\Стефан\source\repos\Yanko_web3_v2\BlazorClient\obj\Debug\net8.0\compressed\bllwa4ry6o-ffjxuy6963.gz
