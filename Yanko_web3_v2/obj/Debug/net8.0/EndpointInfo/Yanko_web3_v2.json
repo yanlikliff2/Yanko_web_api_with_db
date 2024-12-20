@@ -1727,7 +1727,7 @@
       "AuthenticateResponse": {
         "type": "object",
         "properties": {
-          "id": {
+          "userId": {
             "type": "integer",
             "format": "int32"
           },
@@ -1735,7 +1735,7 @@
             "type": "string",
             "nullable": true
           },
-          "firstName": {
+          "username": {
             "type": "string",
             "nullable": true
           },
@@ -1952,7 +1952,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "JWT Authorization header using the Bearer scheme. \\r\\n\\r\\n \r\n                      Enter 'Bearer' [space] and then your token in the text input below.\r\n                      \\r\\n\\r\\nExample: 'Bearer 12345abcdef'",
+        "description": "JWT Authorization header using the Bearer scheme. \\r\\n\\r\\n \n                      Enter 'Bearer' [space] and then your token in the text input below.\n                      \\r\\n\\r\\nExample: 'Bearer 12345abcdef'",
         "name": "Authorization",
         "in": "header"
       }
