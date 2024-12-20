@@ -75,6 +75,7 @@ namespace Yanko_web3_v2.Sevices
 
 
             var account = _mapper.Map<UserTable>(model);
+            account.Username = model.FirstName;
             account.Created = DateTime.UtcNow;
             account.Verified = DateTime.UtcNow;
 
