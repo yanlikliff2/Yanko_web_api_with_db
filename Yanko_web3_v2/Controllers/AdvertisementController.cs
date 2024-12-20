@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Yanko_web3_v2.Authorization;
+using Yanko_web3_v2.Entities;
 using Yanko_web3_v2.Models;
 
 namespace Yanko_web3_v2.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AdvertisementController : ControllerBase
@@ -14,12 +17,14 @@ namespace Yanko_web3_v2.Controllers
         {
             Context = context;
         }
+        [Authorize(Role.Admin)]
         [HttpGet]
         public IActionResult GetAll()
         {
             List<AdvertisementTable> advertisements = Context.AdvertisementTables.ToList();
             return Ok(advertisements);
         }
+        [Authorize(Role.Admin)]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,6 +35,7 @@ namespace Yanko_web3_v2.Controllers
             }
             return Ok(advertisements);
         }
+        [AllowAnonymous]
         [HttpPut]
         public IActionResult Update(int id, int userId, int objectId, double? price, int? sale, int tegId, int ChannelId)
         {
@@ -47,6 +53,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(advertisements);
         }
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Add(int userId, int objectId, double? price, int? sale, int tegId, int ChannelId)
         {
@@ -56,6 +63,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(advertisements);
         }
+        [Authorize(Role.Admin)]
         [HttpDelete]
         public IActionResult Delete(int id)
         {

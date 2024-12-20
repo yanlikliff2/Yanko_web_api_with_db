@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Yanko_web3_v2.Models;
-
+using Yanko_web3_v2.Authorization;
+using Yanko_web3_v2.Entities;
 namespace Yanko_web3_v2.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -14,12 +16,14 @@ namespace Yanko_web3_v2.Controllers
         {
             Context = context;
         }
+        [Authorize(Role.Admin)]
         [HttpGet]
         public IActionResult GetAll()
         {
             List<UserTable> users = Context.UserTables.ToList();
             return Ok(users);
         }
+        [Authorize(Role.Admin)]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,6 +34,7 @@ namespace Yanko_web3_v2.Controllers
             }
             return Ok(userTable);
         }
+        [AllowAnonymous]
         [HttpPut]
         public IActionResult Update(int id, string userName, string email, string password, int roleId)
         {
@@ -46,6 +51,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(userTable);
         }
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Add(string userName, string email, string password, int roleId)
         {
@@ -54,6 +60,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(userTable);
         }
+        [Authorize(Role.Admin)]
         [HttpDelete]
         public IActionResult Delete(int id)
         {

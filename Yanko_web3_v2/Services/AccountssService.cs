@@ -200,7 +200,7 @@ namespace Yanko_web3_v2.Sevices
             var account = _mapper.Map<UserTable>(model);
 
             var isFirstAccount = (await _user.UserTables.AnyAsync(x => x.Email == model.Email));
-            account.Username = model.Login;
+            account.Username = model.Firstname;
             account.Role = isFirstAccount ? Role.Admin : Role.User;
             account.Created = DateTime.UtcNow;
             account.Verified = DateTime.UtcNow;

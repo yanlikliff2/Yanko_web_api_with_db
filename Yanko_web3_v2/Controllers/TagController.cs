@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Yanko_web3_v2.Authorization;
+using Yanko_web3_v2.Entities;
 using Yanko_web3_v2.Models;
+
 
 namespace Yanko_web3_v2.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TagController : ControllerBase
@@ -14,12 +18,14 @@ namespace Yanko_web3_v2.Controllers
         {
             Context = context;
         }
+        [Authorize(Role.Admin)]
         [HttpGet]
         public IActionResult GetAll()
         {
             List<TagTable> tag = Context.TagTables.ToList();
             return Ok(tag);
         }
+        [Authorize(Role.Admin)]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,6 +36,7 @@ namespace Yanko_web3_v2.Controllers
             }
             return Ok(tag);
         }
+        [AllowAnonymous]
         [HttpPut]
         public IActionResult Update(int id, string tagName)
         {
@@ -42,6 +49,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(tag);
         }
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Add(string tagName)
         {
@@ -50,6 +58,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(tag);
         }
+        [Authorize(Role.Admin)]
         [HttpDelete]
         public IActionResult Delete(int id)
         {

@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Yanko_web3_v2.Authorization;
+using Yanko_web3_v2.Entities;
 using Yanko_web3_v2.Models;
 
 namespace Yanko_web3_v2.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ChannelController : ControllerBase
@@ -14,12 +17,14 @@ namespace Yanko_web3_v2.Controllers
         {
             Context = context;
         }
+        [Authorize(Role.Admin)]
         [HttpGet]
         public IActionResult GetAll()
         {
             List<ChannelTable> users = Context.ChannelTables.ToList();
             return Ok(users);
         }
+        [Authorize(Role.Admin)]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,6 +35,7 @@ namespace Yanko_web3_v2.Controllers
             }
             return Ok(objectTable);
         }
+        [AllowAnonymous]
         [HttpPut]
         public IActionResult Update(int id, string channelName) // Не вижу смысла менять AutorId
         {
@@ -42,6 +48,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(channelTable);
         }
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Add(string channelName, int autorId)
         {
@@ -54,6 +61,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(channelTable);
         }
+        [Authorize(Role.Admin)]
         [HttpDelete]
         public IActionResult Delete(int id)
         {

@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Yanko_web3_v2.Authorization;
+using Yanko_web3_v2.Entities;
 using Yanko_web3_v2.Models;
 
 namespace Yanko_web3_v2.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SubscriptionsController : ControllerBase
@@ -14,12 +17,14 @@ namespace Yanko_web3_v2.Controllers
         {
             Context = context;
         }
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult GetAll()
         {
             List<SubscriptionsTable> subscribers = Context.SubscriptionsTables.ToList();
             return Ok(subscribers);
         }
+        [Authorize(Role.Admin)]
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -30,6 +35,7 @@ namespace Yanko_web3_v2.Controllers
             }
             return Ok(subscribers);
         }
+        [AllowAnonymous]
         [HttpPut]
         public IActionResult Update(int id, int userId, int channelId, int level)
         {
@@ -44,6 +50,7 @@ namespace Yanko_web3_v2.Controllers
             Context.SaveChanges();
             return Ok(subscribers);
         }
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Add(int userId, int channelId, int level)
         {
@@ -53,6 +60,7 @@ namespace Yanko_web3_v2.Controllers
             return Ok(subscribers);
            
         }
+        [Authorize(Role.Admin)]
         [HttpDelete]
         public IActionResult Delete(int id)
         {
