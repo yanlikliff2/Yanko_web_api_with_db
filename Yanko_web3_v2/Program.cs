@@ -119,7 +119,7 @@ namespace Yanko_web3_v2
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-            app.UseMiddleware<ErrorHandlerMidleware>();
+            //app.UseMiddleware<ErrorHandlerMidleware>();
             app.UseMiddleware<JwtMiddleware>();
             app.MapControllers();
             app.Run();
