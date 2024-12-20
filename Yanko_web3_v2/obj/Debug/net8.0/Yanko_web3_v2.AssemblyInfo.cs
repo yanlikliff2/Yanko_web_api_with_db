@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yanko_web3_v2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c79bb92103e130866f5942de063331b48a80486")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a962157d7e3bfe0fc3231bcb463e6d5c09709fed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yanko_web3_v2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yanko_web3_v2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

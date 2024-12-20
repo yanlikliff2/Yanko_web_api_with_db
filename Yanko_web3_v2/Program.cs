@@ -110,7 +110,7 @@ namespace Yanko_web3_v2
                 app.UseSwaggerUI();
             }
 
-            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7098", "https://yanko-web-api-with-db.onrender.com" })
+            app.UseCors(builder => builder.WithOrigins(new[] { "https://localhost:7098", "https://yanko-web-api-with-db.onrender.com", "https://yanko-web-api.onrender.com" })
             
         .AllowAnyHeader()
         .AllowAnyMethod());
